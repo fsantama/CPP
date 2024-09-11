@@ -6,7 +6,7 @@
 /*   By: fsantama <fsantama@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 12:25:38 by fsantama          #+#    #+#             */
-/*   Updated: 2024/09/11 10:36:19 by fsantama         ###   ########.fr       */
+/*   Updated: 2024/09/11 18:23:09 by fsantama         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -34,6 +34,9 @@ public:
     void attack(const std::string& target);
     void takeDamage(unsigned int amount);
     void beRepaired(unsigned int amount);
+
+private:
+    ClapTrap();
 };
 
 #endif // CLAPTRAP_HPP
