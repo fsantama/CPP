@@ -6,7 +6,7 @@
 /*   By: fsantama <fsantama@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 14:18:02 by fsantama          #+#    #+#             */
-/*   Updated: 2024/09/11 14:18:04 by fsantama         ###   ########.fr       */
+/*   Updated: 2024/09/12 10:13:53 by fsantama         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -21,10 +21,12 @@ private:
     std::string name;
     AMateria* inventory[4];
 public:
+    Character();
     Character(std::string const & name);
     Character(Character const & other);
-    virtual ~Character();
     Character &operator=(Character const & other);
+    virtual ~Character();
+    
     virtual std::string const & getName() const;
     virtual void equip(AMateria* m);
     virtual void unequip(int idx);

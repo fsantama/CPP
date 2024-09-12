@@ -6,7 +6,7 @@
 /*   By: fsantama <fsantama@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 12:06:00 by fsantama          #+#    #+#             */
-/*   Updated: 2024/09/11 13:48:54 by fsantama         ###   ########.fr       */
+/*   Updated: 2024/09/12 09:42:26 by fsantama         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -22,6 +22,7 @@ protected:
 
 public:
     Animal();
+    Animal(std::string type);
     Animal(const Animal &other);
     Animal &operator=(const Animal &other);
     virtual ~Animal();

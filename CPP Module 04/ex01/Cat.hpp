@@ -6,7 +6,7 @@
 /*   By: fsantama <fsantama@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 12:47:22 by fsantama          #+#    #+#             */
-/*   Updated: 2024/09/11 12:59:16 by fsantama         ###   ########.fr       */
+/*   Updated: 2024/09/12 08:42:42 by fsantama         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -18,7 +18,7 @@
 
 class Cat : public Animal {
 private:
-    Brain* brain;
+    Brain* _brain;
 public:
     Cat();
     Cat(const Cat &other);

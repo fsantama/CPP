@@ -6,7 +6,7 @@
 /*   By: fsantama <fsantama@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 12:46:45 by fsantama          #+#    #+#             */
-/*   Updated: 2024/09/11 12:46:51 by fsantama         ###   ########.fr       */
+/*   Updated: 2024/09/12 08:46:02 by fsantama         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -25,7 +25,7 @@ Brain::Brain(const Brain& other) {
 Brain& Brain::operator=(const Brain& other) {
     if (this != &other) {
         for (int i = 0; i < 100; ++i) {
-            ideas[i] = other.ideas[i];
+            _ideas[i] = other._ideas[i];
         }
     }
     return *this;

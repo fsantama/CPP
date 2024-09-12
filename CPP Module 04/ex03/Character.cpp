@@ -6,12 +6,17 @@
 /*   By: fsantama <fsantama@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 14:18:17 by fsantama          #+#    #+#             */
-/*   Updated: 2024/09/11 14:21:34 by fsantama         ###   ########.fr       */
+/*   Updated: 2024/09/12 10:13:28 by fsantama         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
 #include "Character.hpp"
 #include <iostream>
+
+Character::Character() : name("") {
+    for (int i = 0; i < 4; ++i)
+        inventory[i] = NULL;
+}
 
 Character::Character(std::string const & name) : name(name) {
     for (int i = 0; i < 4; ++i)

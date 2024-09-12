@@ -6,7 +6,7 @@
 /*   By: fsantama <fsantama@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 12:47:01 by fsantama          #+#    #+#             */
-/*   Updated: 2024/09/11 12:58:59 by fsantama         ###   ########.fr       */
+/*   Updated: 2024/09/12 08:45:19 by fsantama         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -18,7 +18,7 @@
 
 class Dog : public Animal {
 private:
-    Brain* brain;
+    Brain* _brain;
 public:
     Dog();
     Dog(const Dog &other);
