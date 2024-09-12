@@ -6,7 +6,7 @@
 /*   By: fsantama <fsantama@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 12:08:21 by fsantama          #+#    #+#             */
-/*   Updated: 2024/09/11 12:20:56 by fsantama         ###   ########.fr       */
+/*   Updated: 2024/09/12 08:34:51 by fsantama         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -14,7 +14,7 @@
 #include <iostream>
 
 Cat::Cat() {
-    type = "Cat";
+    _type = "Cat";
     std::cout << "Cat created" << std::endl;
 }
 

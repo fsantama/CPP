@@ -6,7 +6,7 @@
 /*   By: fsantama <fsantama@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 12:06:34 by fsantama          #+#    #+#             */
-/*   Updated: 2024/09/11 18:23:10 by fsantama         ###   ########.fr       */
+/*   Updated: 2024/09/12 08:34:25 by fsantama         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -45,5 +45,5 @@ void Animal::makeSound() const {
 }
 
 std::string Animal::getType() const {
-    return type;
+    return _type;
 }
