@@ -6,7 +6,7 @@
 /*   By: fsantama <fsantama@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 12:25:38 by fsantama          #+#    #+#             */
-/*   Updated: 2024/09/11 18:23:09 by fsantama         ###   ########.fr       */
+/*   Updated: 2024/09/12 08:20:01 by fsantama         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -25,6 +25,7 @@ protected:
 
 public:
     // Constructors and Destructor
+    ClapTrap();
     ClapTrap(const std::string& name);
     ClapTrap(const ClapTrap& other);
     ClapTrap& operator=(const ClapTrap& other);
